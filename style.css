@@ -1,0 +1,145 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body
+{
+    font-family: sans-serif;
+}
+header
+{
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    border: 1px solid gray;
+}
+li
+{
+    list-style-type: none;
+    padding: 15px;
+}
+li a
+{
+    text-decoration: none;
+    color: black;
+}
+
+.container
+{
+    display: flex;
+    flex-direction: row;
+}
+.box1{
+
+    width: 50%;
+    height: 100%;
+    background-color: white;
+}
+.sec
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sec h2
+{
+    font-size: 37px;
+    line-height: 40px;
+    color: black;
+    text-align: center;
+    width: 500px;
+}
+.sec p
+{
+    font-size: 19px;
+    line-height: 30px;
+    color: #666666;
+    text-align: center;
+    width: 500px;
+}
+form
+{
+    display: flex;
+    flex-direction: column; 
+    width: 55%;
+    margin: auto;
+    
+}
+p
+{
+    color: #C2C2C2;
+    font-size: 14px;
+}
+input
+{
+    width: 320px;
+    padding: 13px;
+    margin-top: 20px;
+    font-size: 13px;
+}
+label
+{
+   
+    
+}
+.have
+{
+    color: chocolate;
+    font-size: 16px;
+}
+a
+{
+    text-decoration: none;
+    color: skyblue;
+}
+.check
+{
+    display: inline;
+    padding-left: 30px;
+    padding-top: 10px;
+
+}
+.check input
+{
+    position: relative;
+    right: 30px;
+    bottom: 35px;
+}
+
+button
+{
+    width: 350px;
+    height: 50px;
+    margin-top: 20px;
+    font-size: 13px;
+    font-size: 15px;
+    color: white;
+    border-radius: 5px;
+}
+.btn1
+{
+    background-color: #336FD3;
+    border: 1px solid silver;
+}
+.btn2
+{
+
+    background-color: #294172;
+    border: 1px solid silver;
+}
+.btn3
+{
+
+    background-color: #1B7DBB;
+    border: 1px solid silver;
+}
+
+.box2
+{
+    background-image: url(home.png);
+    background-size: 800px;
+    background-repeat: no-repeat;
+    width: 50%;
+    height: 700px;
+}
